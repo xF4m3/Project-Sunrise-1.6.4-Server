@@ -1,0 +1,20 @@
+[
+{
+  "modid": "advancedgenetics",
+  "name": "Advanced Genetics",
+  "description": "DNAo'matic!",
+  "version": "v1.4.2",
+  "url": "http://ag.teamdna.de",
+  "updateUrl": "http://www.minecraftforum.net/topic/1988826-162-advanced-genetics-mod/",
+  "authorList": [
+    "ObsiLP"
+  ],
+  "credits": "By ObsiLP",
+  "logoFile": "/assets/advancedgenetics/textures/gui/logo.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

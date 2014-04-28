@@ -1,0 +1,7 @@
+You are not allowed to sell TeamDNA mods or earn money with them in any way.
+You are not allowed to copy or reverse engineer any of the code that was released by TeamDNA.
+You are not allowed to upload instances of TeamDNA mods without a written permission of the author.
+You are allowed to create modpacks with TeamDNA mods.
+All TeamDNA mods must be downloaded from the TeamDNA.de-Server.
+
+(c) TeamDNA - 2014
