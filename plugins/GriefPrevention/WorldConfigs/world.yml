@@ -317,7 +317,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     EnderDragonDamage:
       Wilderness:
         AboveSeaLevel: Allow
@@ -387,7 +387,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     WitherEating:
       Wilderness:
         AboveSeaLevel: Allow
@@ -419,7 +419,7 @@ GriefPrevention:
         BelowSeaLevel: Deny
         SeaLevel: '-1'
         SiegeNonPlayer: Allow
-        ClaimControl: RequireNone
+        ClaimControl: RequireOwner
     BlockDamageOtherExplosions:
       Wilderness:
         AboveSeaLevel: Deny
@@ -430,7 +430,7 @@ GriefPrevention:
         BelowSeaLevel: Deny
         SeaLevel: '-1'
         SiegeNonPlayer: Allow
-        ClaimControl: RequireNone
+        ClaimControl: RequireOwner
     WaterBuckets:
       Place:
         Wilderness:
@@ -484,7 +484,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     BuildSnowGolem:
       Wilderness:
         AboveSeaLevel: Deny
@@ -494,7 +494,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     BuildWither:
       Wilderness:
         AboveSeaLevel: Deny
@@ -504,7 +504,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     TrashBlockPlacementRules:
       Wilderness:
         AboveSeaLevel: Allow
@@ -544,7 +544,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     VehicleBoarding:
       Wilderness:
         AboveSeaLevel: Allow
@@ -698,7 +698,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     TrapDoors:
       Wilderness:
         AboveSeaLevel: Allow
@@ -708,7 +708,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     FenceGates:
       Wilderness:
         AboveSeaLevel: Allow
@@ -718,7 +718,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     EnderPearlOrigin:
       Wilderness:
         AboveSeaLevel: Allow
@@ -748,7 +748,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     WoodenPressurePlates:
       Wilderness:
         AboveSeaLevel: Allow
@@ -758,7 +758,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     ArrowWoodenPressurePlate:
       Wilderness:
         AboveSeaLevel: Allow
@@ -768,7 +768,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireAccess
     StoneButton:
       Wilderness:
         AboveSeaLevel: Allow
@@ -870,7 +870,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireOwner
     NameTags:
       Wilderness:
         AboveSeaLevel: Allow
@@ -901,7 +901,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireBuild
       Water:
         Wilderness:
           AboveSeaLevel: Allow
@@ -911,7 +911,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireBuild
       Arrows:
         Wilderness:
           AboveSeaLevel: Deny
@@ -931,7 +931,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       FlintandSteel:
         Wilderness:
           AboveSeaLevel: Deny
@@ -941,7 +941,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireBuild
       PositivePotions:
         Wilderness:
           AboveSeaLevel: Allow
@@ -961,7 +961,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       SpawnEggs:
         Wilderness:
           AboveSeaLevel: Allow
@@ -971,7 +971,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       Fireworks:
         Wilderness:
           AboveSeaLevel: Allow
@@ -981,7 +981,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       Snowballs:
         Wilderness:
           AboveSeaLevel: Allow
@@ -991,7 +991,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       Eggs:
         Wilderness:
           AboveSeaLevel: Deny
@@ -1001,7 +1001,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       Misc:
         Wilderness:
           AboveSeaLevel: Allow
@@ -1011,4 +1011,4 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
