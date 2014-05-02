@@ -14,20 +14,20 @@ GriefPrevention:
     BlockedSlashCommands: /home;/vanish;/spawn;/tpa
     BlockContainers: true
     ProtectPlayersInLandClaims:
-      PlayerOwnedClaims: false
-      AdministrativeClaims: false
+      PlayerOwnedClaims: true
+      AdministrativeClaims: true
   Enabled: true
   SeaLevelOverride:
     Enabled: false
   HorseTrust: Disabled
   SiegeDefendable: RequireOwner
-  MinLavaPlacementDistance: 10
+  MinLavaPlacementDistance: 5
   Claims:
     EntityLimit: 0
     InsufficientSneakResetBound: 0
-    SiegeTamedAnimalDistance: 20
+    SiegeTamedAnimalDistance: 30
     Enabled: true
-    MaxClaimBlocks: 0
+    MaxClaimBlocks: 5000
     BlocksAccruedPerHour: 100.0
     AbandonReturnRatio: 1.0
     PerPlayerLimit: 0
@@ -41,12 +41,12 @@ GriefPrevention:
     AutomaticNewPlayerClaimsRadius: 4
     ExtendIntoGroundDistance: 5
     CreationRequiresPermission: false
-    MinimumSize: 10
-    MinimumBlocks: 100
+    MinimumSize: 5
+    MinimumBlocks: 50
     MaximumDepth: 0
     TrappedCommandCooldownMinutes: 480
-    InvestigationTool: STICK
-    ModificationTool: GOLD_SPADE
+    InvestigationTool: GOLD_SPADE
+    ModificationTool: STICK
     WarnWhenBuildingOutsideClaims: true
     AllowUnclaimingLand: true
     AutoRestoreUnclaimedLand: true
@@ -96,14 +96,14 @@ GriefPrevention:
     KickThreshold: 6
     BanThreshold: 8
     MuteThreshold: 4
-    LoginCooldownSeconds: 60
+    LoginCooldownSeconds: 30
     Enabled: true
     MonitorSlashCommands: /me;/tell;/global;/local
     WarningMessage: Please reduce your noise level.  Spammers will be banned.
     KickMessage: Kicked for spamming.
     BanMessage: Banned for spamming.
     AllowedIpAddresses: 1.2.3.4; 5.6.7.8
-    DeathMessageCooldownSeconds: 60
+    DeathMessageCooldownSeconds: 30
     KickCommand: kick {0}
     BanCommand: ban {0};kick {0}
   CleanupTasks:
@@ -182,12 +182,13 @@ GriefPrevention:
     - 'X2574:*:block Drawing Table '
     - 'X2271:*: Machine '
     - 'X1037:*:" Machine  Blocks" '
-    - 'X1013:*: I D  Death Ender Chest '
+    - 'X1013:*: I D  Death Ender Chest      <-- can''t understand this entry, see
+      BukkitDev documentation'
     - 'X3474:*:block Machine '
     - 'X2661:*: Cart Assembler '
     - 'X2245:*: Table '
     - 'X453:*:block machine gamma '
-    - 'X1280:*:block receptacle id '
+    - X1280:*:block receptacle id      <-- can't understand this entry, see BukkitDev documentation
     - 'X2246:*: Type Machine '
     - 'X452:*:block machine beta '
     - 'X451:*:block machine alpha '
@@ -414,14 +415,14 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         SiegeNonPlayer: Allow
         ClaimControl: RequireNone
     BlockDamageOtherExplosions:
       Wilderness:
-        AboveSeaLevel: Allow
+        AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
       Claims:
@@ -433,7 +434,7 @@ GriefPrevention:
     WaterBuckets:
       Place:
         Wilderness:
-          AboveSeaLevel: Deny
+          AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
         Claims:
@@ -454,7 +455,7 @@ GriefPrevention:
     LavaBuckets:
       Place:
         Wilderness:
-          AboveSeaLevel: Deny
+          AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           RequiredPermissions:
           - griefprevention.placement.lava
