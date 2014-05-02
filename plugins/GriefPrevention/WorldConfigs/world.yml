@@ -162,6 +162,65 @@ GriefPrevention:
     - 'X1564:*:carpet Trapdoor Part1 '
     - 'X528:*:carpet Trapdoor Part8 '
     - 'X2555:*:block Big Button '
+    - 'X850:*:ME 1 '
+    - 'X851:*:ME 2 '
+    - 'X852:*:ME 3 '
+    - 'X853:*:ME 4 '
+    - 'X854:*:ME 5 '
+    - 'X4361:*:ME 6 '
+    - 'X4362:*:ME 7 '
+    - 'X4363:*:ME 8 '
+    - 'X4364:*:ME 9 '
+    - 'X4365:*:ME 10 '
+    - 'X4366:*:ME 11 '
+    - 'X4367:*:ME 12 '
+    - 'X4368:*:ME 13 '
+    - 'X4369:*:ME 14 '
+    - 'X4370:*:ME 15 '
+    - 'X4371:*:ME 16 '
+    - 'X4372:*:ME 17 '
+    - 'X4373:*:ME 18 '
+    - 'X7770:*:Batbox Cart '
+    - 'X7772:*:MFE Cart '
+    - 'X2001:*:Thermal Expansion '
+    - 'X2002:*:Thermal Expansion 2 '
+    - 'X2003:*:Thermal Expansion 3 '
+    - 'X2004:*:Thermal Expansion 4 '
+    - 'X2005:*:Thermal Expansion 5 '
+    - 'X2006:*:Thermal Expansion 6 '
+    - 'X2007:*:Thermal Expansion 7 '
+    - 'X2008:*:Thermal Expansion 8 '
+    - 'X2009:*:Thermal Expansion 9 '
+    - 'X2010:*:Thermal Expansion 10 '
+    - 'X2011:*:Thermal Expansion 11 '
+    - 'X2012:*:Thermal Expansion 12 '
+    - 'X2013:*:Thermal Expansion 13 '
+    - 'X2014:*:Thermal Expansion 14 '
+    - 'X2015:*:Thermal Expansion 15 '
+    - 'X2016:*:Thermal Expansion 16 '
+    - 'X2017:*:Thermal Expansion 17 '
+    - 'X2018:*:Thermal Expansion 18 '
+    - 'X2019:*:Thermal Expansion 19 '
+    - 'X2020:*:Thermal Expansion 20 '
+    - 'X2021:*:Thermal Expansion 21 '
+    - 'X2022:*:Thermal Expansion 22 '
+    - 'X2041:*:Carpenter 1 '
+    - 'X2042:*:Carpenter 2 '
+    - 'X2043:*:Carpenter 3 '
+    - 'X2044:*:Carpenter 4 '
+    - 'X2045:*:Carpenter 5 '
+    - 'X2046:*:Carpenter 6 '
+    - 'X2047:*:Carpenter 7 '
+    - 'X2048:*:Carpenter 8 '
+    - 'X2049:*:Carpenter 9 '
+    - 'X2050:*:Carpenter 10 '
+    - 'X2051:*:Carpenter 11 '
+    - 'X2052:*:Carpenter 12 '
+    - 'X2067:*:Carpenter 13 '
+    - 'X1101:*:LogisticPipes 1 '
+    - 'X2071:*:GregTech 1 '
+    - 'X2268:*:GregTech 2 '
+    - 'X30872:*:RotaryCraft '
     BlockIdsRequiringContainerTrust:
     - 'X1371:*:adv Genetic Machine '
     - 'X1370:*:apiarist Machine '
@@ -182,13 +241,72 @@ GriefPrevention:
     - 'X2574:*:block Drawing Table '
     - 'X2271:*: Machine '
     - 'X1037:*:" Machine  Blocks" '
+    - 'X850:*:ME 1 '
+    - 'X851:*:ME 2 '
+    - 'X852:*:ME 3 '
+    - 'X853:*:ME 4 '
+    - 'X854:*:ME 5 '
+    - 'X4361:*:ME 6 '
+    - 'X4362:*:ME 7 '
+    - 'X4363:*:ME 8 '
+    - 'X4364:*:ME 9 '
+    - 'X4365:*:ME 10 '
+    - 'X4366:*:ME 11 '
+    - 'X4367:*:ME 12 '
+    - 'X4368:*:ME 13 '
+    - 'X4369:*:ME 14 '
+    - 'X4370:*:ME 15 '
+    - 'X4371:*:ME 16 '
+    - 'X4372:*:ME 17 '
+    - 'X4373:*:ME 18 '
+    - 'X7770:*:Batbox Cart '
+    - 'X7772:*:MFE Cart '
+    - 'X2001:*:Thermal Expansion '
+    - 'X2002:*:Thermal Expansion 2 '
+    - 'X2003:*:Thermal Expansion 3 '
+    - 'X2004:*:Thermal Expansion 4 '
+    - 'X2005:*:Thermal Expansion 5 '
+    - 'X2006:*:Thermal Expansion 6 '
+    - 'X2007:*:Thermal Expansion 7 '
+    - 'X2008:*:Thermal Expansion 8 '
+    - 'X2009:*:Thermal Expansion 9 '
+    - 'X2010:*:Thermal Expansion 10 '
+    - 'X2011:*:Thermal Expansion 11 '
+    - 'X2012:*:Thermal Expansion 12 '
+    - 'X2013:*:Thermal Expansion 13 '
+    - 'X2014:*:Thermal Expansion 14 '
+    - 'X2015:*:Thermal Expansion 15 '
+    - 'X2016:*:Thermal Expansion 16 '
+    - 'X2017:*:Thermal Expansion 17 '
+    - 'X2018:*:Thermal Expansion 18 '
+    - 'X2019:*:Thermal Expansion 19 '
+    - 'X2020:*:Thermal Expansion 20 '
+    - 'X2021:*:Thermal Expansion 21 '
+    - 'X2022:*:Thermal Expansion 22 '
+    - 'X2041:*:Carpenter 1 '
+    - 'X2042:*:Carpenter 2 '
+    - 'X2043:*:Carpenter 3 '
+    - 'X2044:*:Carpenter 4 '
+    - 'X2045:*:Carpenter 5 '
+    - 'X2046:*:Carpenter 6 '
+    - 'X2047:*:Carpenter 7 '
+    - 'X2048:*:Carpenter 8 '
+    - 'X2049:*:Carpenter 9 '
+    - 'X2050:*:Carpenter 10 '
+    - 'X2051:*:Carpenter 11 '
+    - 'X2052:*:Carpenter 12 '
+    - 'X2067:*:Carpenter 13 '
+    - 'X1101:*:LogisticPipes 1 '
+    - 'X2071:*:GregTech 1 '
+    - 'X2268:*:GregTech 2 '
+    - 'X30872:*:RotaryCraft '
     - 'X1013:*: I D  Death Ender Chest      <-- can''t understand this entry, see
       BukkitDev documentation'
     - 'X3474:*:block Machine '
     - 'X2661:*: Cart Assembler '
     - 'X2245:*: Table '
     - 'X453:*:block machine gamma '
-    - X1280:*:block receptacle id      <-- can't understand this entry, see BukkitDev documentation
+    - 'X1280:*:block receptacle id      <-- can't understand this entry, see BukkitDev documentation
     - 'X2246:*: Type Machine '
     - 'X452:*:block machine beta '
     - 'X451:*:block machine alpha '
@@ -419,7 +537,7 @@ GriefPrevention:
         BelowSeaLevel: Deny
         SeaLevel: '-1'
         SiegeNonPlayer: Allow
-        ClaimControl: RequireOwner
+        ClaimControl: RequireBuild
     BlockDamageOtherExplosions:
       Wilderness:
         AboveSeaLevel: Deny
@@ -430,7 +548,7 @@ GriefPrevention:
         BelowSeaLevel: Deny
         SeaLevel: '-1'
         SiegeNonPlayer: Allow
-        ClaimControl: RequireOwner
+        ClaimControl: RequireBuild
     WaterBuckets:
       Place:
         Wilderness:
@@ -585,7 +703,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     SheepShearing:
       Wilderness:
         AboveSeaLevel: Allow
@@ -635,7 +753,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     EndermanPlacement:
       Wilderness:
         AboveSeaLevel: Deny
@@ -645,7 +763,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireNone
+        ClaimControl: RequireBuild
     ArrowsHitWoodButtons:
       Wilderness:
         AboveSeaLevel: Allow
@@ -695,8 +813,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     TrapDoors:
@@ -705,8 +823,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     FenceGates:
@@ -715,8 +833,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     EnderPearlOrigin:
@@ -735,8 +853,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     StonePressurePlates:
@@ -745,8 +863,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     WoodenPressurePlates:
@@ -755,8 +873,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     ArrowWoodenPressurePlate:
@@ -765,8 +883,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     StoneButton:
@@ -775,8 +893,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     WoodenButton:
@@ -785,8 +903,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     Levers:
@@ -795,8 +913,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     Beds:
@@ -805,8 +923,8 @@ GriefPrevention:
         BelowSeaLevel: Allow
         SeaLevel: '-1'
       Claims:
-        AboveSeaLevel: Allow
-        BelowSeaLevel: Allow
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
         SeaLevel: '-1'
         ClaimControl: RequireAccess
     FireExtinguishing:
@@ -818,7 +936,7 @@ GriefPrevention:
         AboveSeaLevel: Allow
         BelowSeaLevel: Allow
         SeaLevel: '-1'
-        ClaimControl: RequireBuild
+        ClaimControl: RequireAccess
     FireSetting:
       Wilderness:
         AboveSeaLevel: Deny
@@ -870,7 +988,7 @@ GriefPrevention:
         AboveSeaLevel: Deny
         BelowSeaLevel: Deny
         SeaLevel: '-1'
-        ClaimControl: RequireOwner
+        ClaimControl: RequireBuild
     NameTags:
       Wilderness:
         AboveSeaLevel: Allow
@@ -921,7 +1039,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireBuild
       FireCharges:
         Wilderness:
           AboveSeaLevel: Deny
@@ -931,7 +1049,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       FlintandSteel:
         Wilderness:
           AboveSeaLevel: Deny
@@ -951,7 +1069,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireNone
+          ClaimControl: RequireAccess
       NegativePotions:
         Wilderness:
           AboveSeaLevel: Allow
@@ -961,7 +1079,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       SpawnEggs:
         Wilderness:
           AboveSeaLevel: Allow
@@ -971,7 +1089,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       Fireworks:
         Wilderness:
           AboveSeaLevel: Allow
@@ -981,7 +1099,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       Snowballs:
         Wilderness:
           AboveSeaLevel: Allow
@@ -991,7 +1109,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       Eggs:
         Wilderness:
           AboveSeaLevel: Deny
@@ -1001,7 +1119,7 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
       Misc:
         Wilderness:
           AboveSeaLevel: Allow
@@ -1011,4 +1129,4 @@ GriefPrevention:
           AboveSeaLevel: Allow
           BelowSeaLevel: Allow
           SeaLevel: '-1'
-          ClaimControl: RequireAccess
+          ClaimControl: RequireBuild
