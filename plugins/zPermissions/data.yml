@@ -1,0 +1,74 @@
+# DO NOT EDIT -- file is written to periodically!
+players: []
+groups:
+- name: Admin
+  permissions:
+    '''*''': true
+    bungeesuite.*: true
+    essentials.*: true
+  metadata: {}
+  priority: 0
+  members:
+  - flatronez
+  - x_fame
+  tempmembers: []
+- name: Bronze
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  members:
+  - owieganowie
+  - x_fame
+  tempmembers: []
+- name: Gold
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Moderator
+  permissions:
+    bungeesuite.chat.mod: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Newbie
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Owner
+  permissions:
+    '''*''': true
+    bungeesuite.*: true
+    essentials.*: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Silver
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Supporter
+  permissions:
+    bungeesuite.chat.user: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Titan
+  permissions:
+    bungeesuite.chat.vip: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []

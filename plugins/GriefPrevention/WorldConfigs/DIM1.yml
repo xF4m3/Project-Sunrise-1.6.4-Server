@@ -1,0 +1,2148 @@
+GriefPrevention:
+  PvP:
+    Enabled: true
+    SpawnProtect:
+      Enabled: true
+      Timeout: 2400
+      DisableonInstigate: true
+      DisableonItemPickup: true
+      PickupTimeout: 10000
+    ProtectFreshSpawns: true
+    PunishLogout: true
+    CombatTimeoutSeconds: 15
+    AllowCombatItemDrop: false
+    BlockedSlashCommands: /home;/vanish;/spawn;/tpa
+    BlockContainers: true
+    ProtectPlayersInLandClaims:
+      PlayerOwnedClaims: false
+      AdministrativeClaims: false
+  Enabled: true
+  SeaLevelOverride:
+    Enabled: false
+  HorseTrust: Disabled
+  SiegeDefendable: RequireOwner
+  MinLavaPlacementDistance: 10
+  Claims:
+    EntityLimit: 0
+    InsufficientSneakResetBound: 0
+    SiegeTamedAnimalDistance: 20
+    Enabled: true
+    MaxClaimBlocks: 0
+    BlocksAccruedPerHour: 150.0
+    AbandonReturnRatio: 1.0
+    PerPlayerLimit: 0
+    SiegeLootChests: 0
+    AbandonAutoRestore: false
+    Expiration:
+      ChestClaimDays: 7
+      UnusedClaimDays: 14
+      AllClaimDays: 0
+      AutomaticNatureRestoration: false
+    AutomaticNewPlayerClaimsRadius: 4
+    ExtendIntoGroundDistance: 5
+    CreationRequiresPermission: false
+    MinimumSize: 5
+    MinimumBlocks: 50
+    MaximumDepth: 0
+    TrappedCommandCooldownMinutes: 480
+    InvestigationTool: GOLD_SPADE
+    ModificationTool: STICK
+    WarnWhenBuildingOutsideClaims: true
+    AllowUnclaimingLand: true
+    AutoRestoreUnclaimedLand: false
+    WildernessWarningBlockCount: 30
+  DenyAllExplosions: false
+  Siege:
+    ItemTransfer: true
+    BlockRevert: true
+    Enabled: true
+    BreakableBlocks:
+    - DIRT,0,1.0
+    - GRASS,0,1.0
+    - LONG_GRASS,0,1.0
+    - COBBLESTONE,0,1.0
+    - GRAVEL,0,1.0
+    - SAND,0,1.0
+    - GLASS,0,1.0
+    - THIN_GLASS,0,1.0
+    - WOOD,0,1.0
+    - WOOL,0,1.0
+    - SNOW,0,1.0
+    ExplosionBreakableBlocks:
+    - DIRT,0,1.0
+    - GRASS,0,1.0
+    - LONG_GRASS,0,1.0
+    - COBBLESTONE,0,1.0
+    - GRAVEL,0,1.0
+    - SAND,0,1.0
+    - GLASS,0,1.0
+    - THIN_GLASS,0,1.0
+    - WOOD,0,1.0
+    - WOOL,0,1.0
+    - SNOW,0,1.0
+    - BRICK,0,1.0
+    - CLAY_BRICK,0,1.0
+    - NETHER_BRICK,0,1.0
+    - SANDSTONE,0,1.0
+    - STONE,0,1.0
+    - STAINED_CLAY,0,1.0
+    - HARD_CLAY,0,1.0
+  Spam:
+    DelayThreshold: 1500
+    CapsMinLength: 4
+    AlphaNumMinLength: 5
+    ASCIIArtMinLength: 15
+    ShortMessageMaxLength: 5
+    KickThreshold: 6
+    BanThreshold: 8
+    MuteThreshold: 4
+    LoginCooldownSeconds: 30
+    Enabled: true
+    MonitorSlashCommands: /me;/tell;/global;/local
+    WarningMessage: Please reduce your noise level.  Spammers will be banned.
+    KickMessage: Kicked for spamming.
+    BanMessage: Banned for spamming.
+    AllowedIpAddresses: 1.2.3.4; 5.6.7.8
+    DeathMessageCooldownSeconds: 30
+    KickCommand: kick {0}
+    BanCommand: ban {0};kick {0}
+  CleanupTasks:
+    Entity: false
+  ClaimCleanup:
+    Interval: 300
+    Quantity: 5
+    MaximumSize: 25
+    MaxInvestmentScore: 100
+    Enabled: true
+  Expiration:
+    MessageCooldown:
+      Claim: 0
+      Stuck: 0
+      Ignore: 0
+  CreativeRules: false
+  Trees:
+    CleanupTimeout: 600
+    RemoveFloatingTreetops: true
+    RegrowGriefedTrees: true
+  Eavesdrop:
+    Enabled: false
+    Signs: true
+    BookDrop: false
+    Books: true
+    WhisperCommands: /tell;/pm;/r
+  TrashBlocks: []
+  LimitSkyTrees: true
+  AddItemsToClaimedChests: true
+  SmartBan: true
+  CreaturesTrampleCrops: false
+  Mods:
+    BlockIdsRequiringAccessTrust: []
+    BlockIdsRequiringContainerTrust:
+    - 'AIR:*:block Grave Id '
+    - 'AIR:*:block hidden '
+    - 'STONE:*: Storage  Electrum  Damage  Amount '
+    - 'GRASS:*: Storage  Crystal  Damage  Amount '
+    - 'TORCH:*: Storage  Flux Per Tick Per Damage '
+    - 'X195:*: Molecular Transformer I D '
+    - 'X195:*:" Limestone  I D" '
+    - 'X194:*:block I D '
+    - 'X478:*:block anvil '
+    - 'X479:*:block lamp '
+    - 'X479:*:block stonelamp '
+    - 'X477:*:block firestone recharge '
+    - 'X474:*:block glass '
+    - 'X475:*:block brick nether '
+    - 'X472:*:block brick frostbound '
+    - 'X470:*:block brick bleachedbone '
+    - 'X471:*:block brick quarried '
+    - 'X468:*:block brick bloodstained '
+    - 'X469:*:block brick sandy '
+    - 'X466:*:block brick abyssal '
+    - 'X467:*:block brick infernal '
+    - 'X464:*:block stair '
+    - 'X465:*:block slab '
+    - 'X463:*:block wall beta '
+    - 'X462:*:block worldlogic '
+    - 'X461:*:block wall alpha '
+    - 'X460:*:block post metal '
+    - 'X459:*:block post '
+    - 'X458:*:block ore '
+    - 'X457:*:block cube '
+    - 'X456:*:block signal '
+    - 'X455:*:block elevator '
+    - 'X454:*:block track '
+    - 'X453:*:block machine gamma '
+    - 'X452:*:block machine beta '
+    - 'X451:*:block machine alpha '
+    - 'X450:*:block detector '
+    - 'X510:*:ricecrop '
+    - 'X504:*:block I D_wireless '
+    - 'X505:*:block I D_skylight '
+    - 'X506:*:block I D_bridge '
+    - 'X500:*:block I D block Machine '
+    - 'X501:*:block I D block I O '
+    - 'X502:*:block I D_proxy '
+    - 'X491:*:block fluid steam '
+    - 'X490:*:block fluid creosote '
+    - 'X546:*:" Sedimentary  Stone  I D:" '
+    - 'X546:*:bananaleaf '
+    - 'X544:*:" Metamorphic  Stone  I D:" '
+    - 'X544:*:coconutleaf '
+    - 'X545:*:bananasapling '
+    - 'X516:*:falling Block2 '
+    - 'X517:*:illusion Block '
+    - 'X517:*:illusion Block1 '
+    - 'X518:*:illusion Block2 '
+    - 'X519:*:illusion Block3 '
+    - 'X512:*:redstone Lever2 '
+    - 'X513:*:redstone Button '
+    - 'X514:*:spike Trap '
+    - 'X515:*:falling Block1 '
+    - 'X524:*:carpet Trapdoor Part4 '
+    - 'X525:*:carpet Trapdoor Part5 '
+    - 'X526:*:carpet Trapdoor Part6 '
+    - 'X527:*:carpet Trapdoor Part7 '
+    - 'X520:*:illusion Block4 '
+    - 'X521:*:peanutcrop '
+    - 'X522:*:carpet Trapdoor Part2 '
+    - 'X523:*:carpet Trapdoor Part3 '
+    - 'X533:*:pearleaf '
+    - 'X532:*:" Player  Beacon" '
+    - 'X532:*:orangesapling '
+    - 'X535:*:" Igneous  Brick  I D:" '
+    - 'X535:*:minecraftcake '
+    - 'X534:*:pearsapling '
+    - 'X529:*:candyflower '
+    - 'X528:*:carpet Trapdoor Part8 '
+    - 'X531:*:" Defiled  Soul  Pylon" '
+    - 'X531:*:orangeleaf '
+    - 'X530:*:" Defiled  Soul  Conductor" '
+    - 'X530:*:strawberrybush '
+    - 'X541:*:" Metamorphic  Cobblestone  I D:" '
+    - 'X541:*:juiceridle '
+    - 'X540:*:" Metamorphic  Brick  I D:" '
+    - 'X540:*:cherrysapling '
+    - 'X543:*:" Metamorphic  Stone  Brick  Slab  I D (half):" '
+    - 'X543:*:coconutsapling '
+    - 'X542:*:" Metamorphic  Stone  Brick  Slab  I D (full):" '
+    - 'X542:*:juicerburning '
+    - 'X537:*:" Igneous  Stone  Brick  Slab  I D (full):" '
+    - 'X537:*:kiwileaf '
+    - 'X536:*:" Igneous  Cobblestone  I D:" '
+    - 'X536:*:pizzazombiecooked '
+    - 'X539:*:" Igneous  Stone  I D:" '
+    - 'X539:*:cherryleaf '
+    - 'X538:*:" Igneous  Stone  Brick  Slab  I D (half):" '
+    - 'X538:*:kiwisapling '
+    - 'X610:*:" Ender  Plant  I D" '
+    - 'X610:*:" Block  Red  Meteor  Gem  I D" '
+    - 'X611:*:" Lightning  Plant  I D" '
+    - 'X611:*:" Fallen  Meteor  I D" '
+    - 'X608:*:" Slime  Plant  I D" '
+    - 'X609:*:" Rain  Plant  I D" '
+    - 'X614:*:" Potion  Plant  I D" '
+    - 'X614:*:" Meteor  Shield  I D" '
+    - 'X615:*:" Repulsion  Plant  I D" '
+    - 'X615:*:" Meteor  Timer  Block  I D" '
+    - 'X613:*:" Burst  Plant  I D" '
+    - 'X613:*:" Kreknorite  I D" '
+    - 'X619:*:" Propulsion  Plant  I D" '
+    - 'X619:*:" Underground  Meteor  I D" '
+    - 'X616:*:" Helium  Plant  I D" '
+    - 'X616:*:" Rare  Fallen  Meteor  I D" '
+    - 'X617:*:" Flying  Flower  I D" '
+    - 'X617:*:" Test  Torch  Lit  I D" '
+    - 'X622:*:" Elevator  Base  I D" '
+    - 'X623:*:" Elevator  Frame  I D" '
+    - 'X620:*:" Chopper  Plant  I D" '
+    - 'X621:*:" Charging  Station  I D" '
+    - 'X627:*:" Pneumatic  Door  I D" '
+    - 'X626:*:" Pneumatic  Door  Base  I D" '
+    - 'X625:*:" Vacuum  Pump  I D" '
+    - 'X624:*:" Pressure  Chamber  Interface  I D" '
+    - 'X631:*:" Assembly  Laser  I D" '
+    - 'X630:*:" Assembly  Drill  I D" '
+    - 'X629:*:" Assembly  Platform  I D" '
+    - 'X628:*:" Assembly  I O  Unit  I D" '
+    - 'X635:*:" U V  Light  Box  I D" '
+    - 'X634:*:" Block of  Compressed  Iron  I D" '
+    - 'X633:*:" Advanced  Pressure  Tube  I D" '
+    - 'X632:*:" Assembly  Controller  I D" '
+    - 'X639:*:" Pneumatic  Generator  I D" '
+    - 'X638:*:" Universal  Sensor  I D" '
+    - 'X637:*:" Security  Station  I D" '
+    - 'X636:*:" Etching  Acid  I D" '
+    - 'X580:*:block Glasses Bridge Id '
+    - 'X581:*:block Peripheral Proxy Id '
+    - 'X582:*:block P I M Id '
+    - 'X583:*:block Ticket Machine Id '
+    - 'X584:*:block Sensor Id '
+    - 'X601:*:" Air  Compressor  I D" '
+    - 'X601:*:" Sandstone  Stalactite  I D" '
+    - 'X600:*: Endumium_ Ore_ I D '
+    - 'X600:*:" Stalactite  I D" '
+    - 'X603:*:" Pressure  Chamber  Wall/ Window  I D" '
+    - 'X603:*:" Decorations  I D" '
+    - 'X602:*:" Air  Cannon  I D" '
+    - 'X602:*:" Flora  I D" '
+    - 'X605:*:" Squid  Plant  I D" '
+    - 'X604:*:" Pressure  Chamber  Valve  I D" '
+    - 'X604:*:" Fossils  I D" '
+    - 'X607:*:" Creeper  Plant  I D" '
+    - 'X606:*:" Fire  Flower  I D" '
+    - 'X702:*:"ender I O:block Conduit Bundle" '
+    - 'X703:*:"ender I O:block Conduit Facade" '
+    - 'X701:*:"ender I O:block Ender Io" '
+    - 'X689:*:advancedmachines array Device id '
+    - 'X648:*:" Drone  Programmer  I D" '
+    - 'X645:*:" Aphorism  Tile  I D" '
+    - 'X644:*:" Electrostatic  Compressor  I D" '
+    - 'X647:*:" Elevator  Caller  I D" '
+    - 'X646:*:" Omnidirectional  Hopper" '
+    - 'X641:*:" Pneumatic  Engine  I D" '
+    - 'X640:*:" Electric  Compressor  I D" '
+    - 'X643:*:" Aerial  Interface  I D" '
+    - 'X642:*:" Kinetic  Compressor  I D" '
+    - 'X661:*: Block_of_ Endumium_ I D '
+    - 'X750:*:essence_refiner_ I D '
+    - 'X767:*:block_caster_ I D '
+    - 'X764:*:essence_conduit_ I D '
+    - 'X765:*:essence_nexus_ I D '
+    - 'X754:*:mage_light_ I D '
+    - 'X758:*:keystone_door_ I D '
+    - 'X759:*:keystone_trapdoor_ I D '
+    - 'X757:*:illusion_block_ I D '
+    - 'X713:*:"ender I O:block Solar Panel" '
+    - 'X712:*:"ender I O:block Custom Stair" '
+    - 'X715:*:"ender I O:block Light Node" '
+    - 'X714:*:"ender I O:block Electric Light" '
+    - 'X717:*:"ender I O:block Custom Slab" '
+    - 'X716:*:"ender I O:block Capacitor Bank" '
+    - 'X719:*:"ender I O:block Crusher" '
+    - 'X718:*:"ender I O:block Custom Double Slab" '
+    - 'X705:*:"ender I O:block Stirling Generator" '
+    - 'X704:*:"ender I O:block Fused Quartz" '
+    - 'X707:*:"ender I O:block Alloy Smelter" '
+    - 'X706:*:"ender I O:block Reservoir" '
+    - 'X709:*:"ender I O:block Custom Fence" '
+    - 'X708:*:"ender I O:block Painter" '
+    - 'X711:*:"ender I O:block Custom Wall" '
+    - 'X710:*:"ender I O:block Custom Fence Gate" '
+    - 'X720:*:"ender I O:block Hyper Cube" '
+    - 'X721:*:"ender I O:block Power Monitor" '
+    - 'X722:*:"ender I O:block Travel Platform" '
+    - 'X821:*:inlay_iron_ I D '
+    - 'X820:*:inlay_redstone_ I D '
+    - 'X823:*:witchwood_planks_ I D '
+    - 'X822:*:inlay_gold_ I D '
+    - 'X817:*:witchwood_leaves_ I D '
+    - 'X816:*:witchwood_log_ I D '
+    - 'X819:*:liquid Essence_ I D '
+    - 'X818:*:summoner_ I D '
+    - 'X829:*:everstone_ I D '
+    - 'X831:*:magic_sigil_ I D '
+    - 'X830:*:invisible Utility_ I D '
+    - 'X825:*:witchwood_slab_double_ I D '
+    - 'X824:*:witchwood_slab_single_ I D '
+    - 'X827:*:witchwood_sapling_ I D '
+    - 'X826:*:witchwood_stairs_ I D '
+    - 'X804:*:magic_wall_ I D '
+    - 'X805:*:occulus_ I D '
+    - 'X806:*:crafting_altar_ I D '
+    - 'X807:*:spell_rune_ I D '
+    - 'X800:*:arcane_reconstructor_ I D '
+    - 'X801:*:mana_battery_ I D '
+    - 'X813:*:aum_ I D '
+    - 'X814:*:wakebloom_ I D '
+    - 'X815:*:tarma_root_ I D '
+    - 'X808:*:deco_block_ I D '
+    - 'X809:*:vinteum_torch_ I D '
+    - 'X810:*:caster_rune_ I D '
+    - 'X811:*:inscription_table_ I D '
+    - 'X791:*:blue_orchid_ I D '
+    - 'X790:*:ores_ I D '
+    - 'X789:*:light_nexus_ I D '
+    - 'X788:*:seer_stone_ I D '
+    - 'X787:*:thorns_ I D '
+    - 'X786:*:dark_nexus_ I D '
+    - 'X785:*:astral_barrier_ I D '
+    - 'X799:*:lectern_ I D '
+    - 'X793:*:keystone_chest_ I D '
+    - 'X792:*:desert_nova_ I D '
+    - 'X769:*:crystal_pillar_ I D '
+    - 'X782:*:keystone_recepticle_ I D '
+    - 'X781:*:calefactor_ I D '
+    - 'X878:*:slipstream_generator_ I D '
+    - 'X851:*:appeng block Multi '
+    - 'X850:*:appeng  Tiny T N T '
+    - 'X854:*:appeng block World '
+    - 'X853:*:appeng block Multi3 '
+    - 'X852:*:appeng block Multi2 '
+    - 'X832:*:magicians_workbench_ I D '
+    - 'X1020:*:" Air  Blocks" '
+    - 'X1021:*:" Coral &  Kelp" '
+    - 'X1022:*:" Custom  Blocks" '
+    - 'X1023:*:" Custom  Fence" '
+    - 'X975:*:iron Chests '
+    - 'X1101:*:logistics Solid Block Id '
+    - 'X1115:*: Storage '
+    - 'X1124:*:switch diamond id '
+    - 'X1122:*:switch iron id '
+    - 'X1123:*:switch emerald id '
+    - 'X1121:*:switch gold id '
+    - 'X1151:*:"block  Feeder Active" '
+    - 'X1149:*:"block  Feeder Idle" '
+    - 'X1148:*:"block  Drum" '
+    - 'X1147:*:"block fern Upper" '
+    - 'X1146:*:"block fern" '
+    - 'X1146:*:block_wind_mill '
+    - 'X1145:*:"block worktable Active" '
+    - 'X1145:*:block_water_wheel '
+    - 'X1144:*:"block worktable Idle" '
+    - 'X1144:*:block_traincraft_ores '
+    - 'X1143:*:"block cultivate Active" '
+    - 'X1143:*:block_train_workbench '
+    - 'X1142:*:"block cultivate Idle" '
+    - 'X1142:*:block_train_buffer '
+    - 'X1141:*:"block analyzer Active" '
+    - 'X1141:*:block_refined Fuel '
+    - 'X1140:*:"block analyzer Idle" '
+    - 'X1140:*:block_open_furnace_active '
+    - 'X1139:*:"block  Skull Lantern" '
+    - 'X1139:*:block_open_furnace '
+    - 'X1138:*:"block  Skull" '
+    - 'X1138:*:block_lantern '
+    - 'X1137:*:"block  Fossil" '
+    - 'X1137:*:block_distil_active '
+    - 'X1032:*:" Double  Blocks" '
+    - 'X1035:*:" Glass  Blocks" '
+    - 'X1036:*:" High  Pressure  Water" '
+    - 'X1037:*:" Machine  Blocks" '
+    - 'X1024:*:" Custom  Flooring" '
+    - 'X1025:*:" Custom  Gate" '
+    - 'X1026:*:" Custom  Light" '
+    - 'X1027:*:" Custom  R F  Block" '
+    - 'X1028:*:" Custom  Slabs  Double" '
+    - 'X1029:*:" Custom  Slabs  Single" '
+    - 'X1030:*:" Custom  Stairs" '
+    - 'X1031:*:" Custom  Wall" '
+    - 'X1053:*:" Neon  Lamps  On" '
+    - 'X1052:*:" Neon  Lamps  Off" '
+    - 'X1055:*: Oyster '
+    - 'X1054:*:" Ore  Blocks" '
+    - 'X1058:*:" Single  Blocks" '
+    - 'X1056:*:" Pearl  Bricks" '
+    - 'X1057:*: Sifter '
+    - 'X1080:*:" Wooden  Blocks" '
+    - 'X1079:*:" Transparent  Blocks" '
+    - 'X1078:*:" Tank  Blocks" '
+    - 'X1077:*:" Earthy  Blocks" '
+    - 'X1217:*:thermopile '
+    - 'X1229:*:cable Block I D '
+    - 'X1228:*:turtle Upgraded Block I D '
+    - 'X1228:*:turtle Upgraded Block I D '
+    - 'X1230:*:turtle Advanced Block I D '
+    - 'X1230:*:turtle Advanced Block I D '
+    - 'X1225:*:computer Block I D '
+    - 'X1227:*:turtle Block I D '
+    - 'X1227:*:turtle Block I D '
+    - 'X1226:*:peripheral Block I D '
+    - 'X1237:*:mixturegold '
+    - 'X1238:*:moltenrubber '
+    - 'X1153:*:" Block  Iced Stone" '
+    - 'X1152:*:" Block  Permafrost" '
+    - 'X1179:*: Decoration '
+    - 'X1180:*: Dimensional Bridge Stabilizer '
+    - 'X1181:*: Frame '
+    - 'X1182:*: Portal '
+    - 'X1183:*: Crafting '
+    - 'X1375:*:mushroom '
+    - 'X1374:*:hive '
+    - 'X1373:*:ectoplasm '
+    - 'X1372:*:alveary Block '
+    - 'X1371:*:adv Genetic Machine '
+    - 'X1370:*:apiarist Machine '
+    - 'X1369:*:genetic Machine '
+    - 'X1405:*:machine '
+    - 'X1404:*:engine '
+    - 'X1407:*:mail '
+    - 'X1406:*:mill '
+    - 'X1397:*:soil '
+    - 'X1396:*:stairs '
+    - 'X1399:*:beehives '
+    - 'X1398:*:resources '
+    - 'X1393:*:leaves '
+    - 'X1392:*:sapling G E '
+    - 'X1395:*:farm '
+    - 'X1394:*:fences '
+    - 'X1388:*:log1 '
+    - 'X1389:*:log2 '
+    - 'X1390:*:log3 '
+    - 'X1391:*:log4 '
+    - 'X1386:*:slabs1 '
+    - 'X1387:*:slabs2 '
+    - 'X1380:*:planks '
+    - 'X1381:*:stained '
+    - 'X1382:*:alveary '
+    - 'X1376:*:lepidopterology '
+    - 'X1377:*:arboriculture '
+    - 'X1378:*:candle '
+    - 'X1379:*:stump '
+    - 'X1329:*: Refinery '
+    - 'X1328:*: Quarry '
+    - 'X1320:*: Breaker '
+    - 'X1321:*: Enchant Mover '
+    - 'X1322:*: Inf M J Src '
+    - 'X1323:*: Laser '
+    - 'X1324:*: Marker '
+    - 'X1325:*: Mining Well '
+    - 'X1326:*: Placer '
+    - 'X1327:*: Pump '
+    - 'X1502:*:auto Workbench id '
+    - 'X1503:*:quarry id '
+    - 'X1500:*:mining Well id '
+    - 'X1501:*:drill id '
+    - 'X1524:*:flood Gate id '
+    - 'X1522:*:spring Block id '
+    - 'X1523:*:filtered Buffer id '
+    - 'X1530:*:oil id '
+    - 'X1531:*:fuel id '
+    - 'X1509:*:frame id '
+    - 'X1508:*:architect id '
+    - 'X1511:*:pump id '
+    - 'X1510:*:engine id '
+    - 'X1505:*:filler id '
+    - 'X1504:*:marker id '
+    - 'X1507:*:builder id '
+    - 'X1517:*:assembly Table id '
+    - 'X1516:*:laser id '
+    - 'X1519:*:hopper id '
+    - 'X1518:*:path Marker id '
+    - 'X1513:*:pipe id '
+    - 'X1512:*:tank id '
+    - 'X1515:*:blueprint Library id '
+    - 'X1514:*:refinery id '
+    - 'X1411:*:log5 '
+    - 'X1410:*:pods '
+    - 'X1409:*:core '
+    - 'X1408:*:apiculture '
+    - 'X1415:*:slabs3 '
+    - 'X1413:*:log7 '
+    - 'X1412:*:log6 '
+    - 'X1418:*:fences2 '
+    - 'X1417:*:planks2 '
+    - 'X1565:*:" Pressure  Tube  I D" '
+    - 'X1564:*:carpet Trapdoor Part1 '
+    - 'X1561:*:" Essentia  Generators" '
+    - 'X1562:*: Shield '
+    - 'X1557:*:" E M T  Solars 2" '
+    - 'X1556:*:" Portable  Node" '
+    - 'X1559:*:" E M T  Machines" '
+    - 'X1558:*:" E M T  Solars" '
+    - 'X1555:*:obsidian Plate '
+    - 'X1741:*:advancedmachines block id '
+    - 'X1741:*:moltenmithril '
+    - 'X1753:*:effect Jar '
+    - 'X1754:*:hives '
+    - 'X1722:*: Lilypad '
+    - 'X1723:*: Wraith Node '
+    - 'X1720:*: Altar Active '
+    - 'X1721:*: Altar Idle '
+    - 'X1913:*: Demon Heart I D '
+    - 'X1913:*:mixtureinolashite '
+    - 'X1912:*: Spinning Wheel I D '
+    - 'X1912:*:molteninolashite '
+    - 'X1915:*: Wormwood I D '
+    - 'X1915:*:"mixtureshadow iron" '
+    - 'X1914:*: Fluid Hollow Tears I D '
+    - 'X1914:*:"moltenshadow iron" '
+    - 'X1917:*:" Overgrown  Netherrack  I D" '
+    - 'X1916:*: Brazier I D '
+    - 'X1916:*:moltensanguinite '
+    - 'X1919:*: Witchs Ladder I D '
+    - 'X1919:*:mixturesanguinite '
+    - 'X1919:*:" Beetroot  Crop  I D" '
+    - 'X1918:*:" Turnip  Crop  I D" '
+    - 'X1905:*: Critter Snare I D '
+    - 'X1904:*: Grassper I D '
+    - 'X1907:*: Blood Rose I D '
+    - 'X1906:*: Crystal Ball I D '
+    - 'X1906:*: Crystal Balle I D '
+    - 'X1909:*: Somnian Cotton I D '
+    - 'X1909:*:mixturekalendrite '
+    - 'X1908:*: Placed Item I D '
+    - 'X1911:*: Fluid Spirit I D '
+    - 'X1911:*:mixtureceruclase '
+    - 'X1910:*: Spirit Portal I D '
+    - 'X1910:*:moltenceruclase '
+    - 'X1896:*: Void Bramble I D '
+    - 'X1897:*: Glint Weed I D '
+    - 'X1898:*: Snowbell I D '
+    - 'X1899:*: Wicker Bundle I D '
+    - 'X1900:*: Glow Globe I D '
+    - 'X1901:*: Leech Chest I D '
+    - 'X1902:*: Statue Goddess I D '
+    - 'X1903:*: Ender Bramble I D '
+    - 'X1888:*: Spanish Moss I D '
+    - 'X1889:*: Plant Mine I D '
+    - 'X1890:*: Leaping Lily I D '
+    - 'X1891:*: Ember Moss I D '
+    - 'X1892:*: Artichoke I D '
+    - 'X1893:*: Alluring Skull I D '
+    - 'X1894:*: Fume Funnel I D '
+    - 'X1895:*: Filtered Fume Funnel I D '
+    - 'X1883:*: Wood Single Slab I D '
+    - 'X1882:*: Door Alder I D '
+    - 'X1881:*: Door Rowan I D '
+    - 'X1880:*: Glyph Infernal I D '
+    - 'X1887:*: Stairs Hawthorn I D '
+    - 'X1886:*: Stairs Alder I D '
+    - 'X1885:*: Stairs Rowan I D '
+    - 'X1884:*: Wood Double Slab I D '
+    - 'X1875:*: Chalice I D '
+    - 'X1874:*: Dream Catcher I D '
+    - 'X1873:*: Barrier I D '
+    - 'X1872:*: Mandrake I D '
+    - 'X1879:*: Glyph Otherwhere I D '
+    - 'X1878:*: Glyph World I D '
+    - 'X1877:*: Glyph Circle I D '
+    - 'X1876:*: Candelabra I D '
+    - 'X1866:*: Poppet Chest I D '
+    - 'X1867:*: Sapling I D '
+    - 'X1864:*: Distillery Burning I D '
+    - 'X1865:*: Kettle I D '
+    - 'X1870:*: Leaves I D '
+    - 'X1871:*: Belladonna I D '
+    - 'X1868:*: Log I D '
+    - 'X1869:*: Wood I D '
+    - 'X1862:*: Oven Burning I D '
+    - 'X1863:*: Distillery I D '
+    - 'X1860:*: Altar I D '
+    - 'X1861:*: Oven I D '
+    - 'X1798:*:grated Hopper '
+    - 'X1799:*:hopper Duct '
+    - 'X2041:*: Barrier '
+    - 'X2042:*: Bed '
+    - 'X2043:*: Block '
+    - 'X2044:*: Button '
+    - 'X2045:*: Daylight Sensor '
+    - 'X2046:*: Door '
+    - 'X2047:*: Gate '
+    - 'X2017:*: Fluid Glowstone '
+    - 'X2016:*: Fluid Redstone '
+    - 'X2019:*: Fluid Pyrotheum '
+    - 'X2018:*: Fluid Ender '
+    - 'X2020:*: Fluid Cryotheum '
+    - 'X2022:*: Fluid Coal '
+    - 'X2002:*: Machine '
+    - 'X2003:*: Device '
+    - 'X2001:*: Ore '
+    - 'X2006:*: Tank '
+    - 'X2007:*: Strongbox '
+    - 'X2004:*: Dynamo '
+    - 'X2005:*: Energy Cell '
+    - 'X2011:*: Lamp '
+    - 'X2008:*: Conduit '
+    - 'X2009:*: Tesseract '
+    - 'X2014:*: Rockwool '
+    - 'X2012:*: Storage '
+    - 'X2013:*: Glass '
+    - 'X1984:*:" Hive  I D" '
+    - 'X1991:*:" Honey  Block  I D" '
+    - 'X1992:*:" Stone  Formations  I D" '
+    - 'X1974:*:" Log  Block  I D 4" '
+    - 'X1975:*:" Pine  Stairs  I D" '
+    - 'X1968:*:" Bones  I D" '
+    - 'X1969:*:" Coral  I D" '
+    - 'X1970:*:" Colourized  Leaves 1  I D" '
+    - 'X1971:*:" Colourized  Leaves 2  I D" '
+    - 'X1980:*:" Puddle  I D" '
+    - 'X1981:*:" Grave  I D" '
+    - 'X1982:*:" Fruit  Leaf  Block 2  I D" '
+    - 'X1983:*:" Flower 2  I D" '
+    - 'X1976:*:" Hell  Bark  Stairs  I D" '
+    - 'X1977:*:" Jacaranda  I D" '
+    - 'X1957:*:" Magic  Stairs  I D" '
+    - 'X1956:*:" Holy  Stairs  I D" '
+    - 'X1959:*:" Palm  Stairs  I D" '
+    - 'X1958:*:" Mangrove  Stairs  I D" '
+    - 'X1953:*:" Cherry  Stairs  I D" '
+    - 'X1952:*:" Acacia  Stairs  I D" '
+    - 'X1955:*:" Fir  Stairs  I D" '
+    - 'X1954:*:" Dark  Stairs  I D" '
+    - 'X1965:*:" Skystone  Cobble  Stairs  I D" '
+    - 'X1964:*:" Cloud  I D" '
+    - 'X1967:*:" Mushroom  I D" '
+    - 'X1966:*:" Skystone  Brick  Stairs  I D" '
+    - 'X1961:*:" Willow  Stairs  I D" '
+    - 'X1960:*:" Redwood  Stairs  I D" '
+    - 'X1963:*:" Crystal  I D" '
+    - 'X1942:*:" Amethyst  Ore  I D" '
+    - 'X1943:*:" Ivy  I D" '
+    - 'X1940:*:" Red  Brick  Stairs  I D" '
+    - 'X1941:*:" Promised  Land  Portal  I D" '
+    - 'X1938:*:" Colourized  Sapling  I D" '
+    - 'X1939:*:" Red  Cobble  Stairs  I D" '
+    - 'X1936:*:" Petal  I D" '
+    - 'X1937:*:" Sapling  I D" '
+    - 'X1950:*:" Wooden  Double  Slab 2  I D" '
+    - 'X1951:*:" Wooden  Single  Slab 2  I D" '
+    - 'X1948:*:" Wooden  Double  Slab 1  I D" '
+    - 'X1949:*:" Wooden  Single  Slab 1  I D" '
+    - 'X1946:*:" Leaf  Block  I D 4" '
+    - 'X1947:*:" Planks  I D" '
+    - 'X1944:*:" Moss  I D" '
+    - 'X1945:*:" Leaf  Block  I D 3" '
+    - 'X1927:*:" Bamboo  I D" '
+    - 'X1926:*:" Fruit  Leaf  Block  I D" '
+    - 'X1925:*:" Foliage  I D" '
+    - 'X1924:*:" Leaf  Block  I D 2" '
+    - 'X1923:*:" Leaf  Block  I D 1" '
+    - 'X1922:*:" Willow  I D" '
+    - 'X1921:*:" Flower  I D" '
+    - 'X1920:*:" Plant  I D" '
+    - 'X1935:*:" Log  Block  I D 3" '
+    - 'X1934:*:" Log  Block  I D 2" '
+    - 'X1933:*:" Log  Block  I D 1" '
+    - 'X1932:*:" Tree  Moss  I D" '
+    - 'X1931:*:" Stone  Single  Slab  I D" '
+    - 'X1930:*:" Stone  Double  Slab  I D" '
+    - 'X1929:*:" Mud  Brick  Stairs  I D" '
+    - 'X1928:*:" Mud  Bricks  I D" '
+    - 'X2185:*: Trophy Pedestal '
+    - 'X2184:*: Trophy '
+    - 'X2187:*: Under Brick '
+    - 'X2186:*: Aurora Brick '
+    - 'X2177:*: Magic Leaves '
+    - 'X2176:*: Magic Log '
+    - 'X2179:*: Magic Log Special '
+    - 'X2178:*: Moonworm '
+    - 'X2181:*: Tower Device '
+    - 'X2180:*: Tower Wood '
+    - 'X2183:*: Tower Translucent '
+    - 'X2182:*: Shield '
+    - 'X2268:*: Block '
+    - 'X2269:*: Block2 '
+    - 'X2270:*: Light Source '
+    - 'X2271:*: Machine '
+    - 'X2253:*: Weapon Rack '
+    - 'X2252:*: Potion Shelf '
+    - 'X2255:*: Weapon Case '
+    - 'X2254:*: Generic Shelf '
+    - 'X2249:*: Armor Stand '
+    - 'X2248:*: Writing Desk '
+    - 'X2251:*: Wooden Label '
+    - 'X2250:*: Bookcase '
+    - 'X2245:*: Table '
+    - 'X2244:*: Lamp '
+    - 'X2247:*: Printing Press '
+    - 'X2246:*: Type Machine '
+    - 'X2243:*: Lantern '
+    - 'X2242:*: More Stuffs '
+    - 'X2302:*: Desk '
+    - 'X2303:*: Display Case Set0 '
+    - 'X2301:*: Bookcase '
+    - 'X2290:*: Map Frame '
+    - 'X2291:*: Seat '
+    - 'X2282:*: Mutatron Adv '
+    - 'X2280:*: Sampler '
+    - 'X2279:*: Mutatron '
+    - 'X2278:*: Mutagen Producer '
+    - 'X2277:*: Mutagen '
+    - 'X2276:*: Industrial Apiary '
+    - 'X2275:*: Imprinter '
+    - 'X2273:*: Stone1 '
+    - 'X2272:*: Ore '
+    - 'X2065:*: Bus Fluid Import_ I D '
+    - 'X2064:*: Bus Fluid Export_ I D '
+    - 'X2067:*:" Collapsible  Block" '
+    - 'X2066:*: Bus Fluid Storage_ I D '
+    - 'X2069:*: Safe '
+    - 'X2068:*: Ladder '
+    - 'X2071:*: Fluid Crafter_ I D '
+    - 'X2070:*: Torch '
+    - 'X2073:*:moltenorichalcum '
+    - 'X2073:*: Storage Monitor Fluid_ I D '
+    - 'X2072:*:" Flower  Pot" '
+    - 'X2048:*: Hatch '
+    - 'X2049:*: Lever '
+    - 'X2050:*: Pressure Plate '
+    - 'X2051:*: Slope '
+    - 'X2052:*: Stairs '
+    - 'X2053:*: Certus Tank_ I D '
+    - 'X2054:*: Fluid Transition Plane_ I D '
+    - 'X2055:*: Hard M E Drive_ I D '
+    - 'X2056:*: Interface Fluid_ I D '
+    - 'X2057:*: Level Emitter Fluid_ I D '
+    - 'X2058:*: M E Battery_ I D '
+    - 'X2059:*: M E Dropper_ I D '
+    - 'X2060:*: Soldering Station_ I D '
+    - 'X2061:*: Terminal Fluid_ I D '
+    - 'X2062:*: Void Fluid_ I D '
+    - 'X2063:*: Walrus_ I D '
+    - 'X2133:*:block_redstoneliquid I D '
+    - 'X2132:*:block_lamp I D '
+    - 'X2135:*:block_stone Walls I D '
+    - 'X2134:*:block_redconductiveliquid I D '
+    - 'X2131:*:block_stones I D '
+    - 'X2130:*:block_ores I D '
+    - 'X2141:*: Liquid Fuel Column Still '
+    - 'X2140:*: Liquid Cyanite Still '
+    - 'X2143:*: Reactor Control Rod '
+    - 'X2142:*: Liquid Yellorium Still '
+    - 'X2137:*:block_dye Sapling I D '
+    - 'X2136:*:block_dye Leaf I D '
+    - 'X2138:*:block_airous I D '
+    - 'X2167:*: Boss Spawner '
+    - 'X2166:*: Hedge '
+    - 'X2165:*: Mazestone '
+    - 'X2164:*: Leaves '
+    - 'X2163:*: Log '
+    - 'X2162:*: Portal '
+    - 'X2160:*: Critter '
+    - 'X2170:*: Roots '
+    - 'X2169:*: Plant '
+    - 'X2168:*: Firefly Jar '
+    - 'X2148:*: Yellorite Ore '
+    - 'X2149:*: Yellorium Fuel Rod '
+    - 'X2146:*: Reactor Redstone Port '
+    - 'X2147:*: Small Machine '
+    - 'X2144:*: Reactor Glass '
+    - 'X2145:*: Reactor Part '
+    - 'X2477:*:" Power  Armor  Tinker  Table" '
+    - 'X2478:*:" Lux  Capacitor" '
+    - 'X2511:*:trading Post '
+    - 'X2510:*:sound Muffler Id '
+    - 'X2509:*:peacefultable Id '
+    - 'X2508:*:green Screen '
+    - 'X2507:*:conveyor Id '
+    - 'X2506:*:cobblestone Compr Id '
+    - 'X2505:*:color Block Data Id '
+    - 'X2504:*:color Block Brick Id '
+    - 'X2502:*:chandelier Id '
+    - 'X2501:*: B U D Block Id '
+    - 'X2500:*:angel Block '
+    - 'X2526:*:portal '
+    - 'X2527:*:drum Id '
+    - 'X2524:*:filing Cabinet Id '
+    - 'X2525:*:ender Lily Id '
+    - 'X2522:*:magnum Torch Id '
+    - 'X2523:*:decorative_1 Id '
+    - 'X2520:*:ender Thermic Pump Id '
+    - 'X2521:*:timer Block Id '
+    - 'X2518:*:ethereal Block Id '
+    - 'X2519:*:colored Wood Id '
+    - 'X2516:*:trash Can '
+    - 'X2517:*:spike Id '
+    - 'X2514:*:curtain Id '
+    - 'X2515:*:cursed Earth '
+    - 'X2512:*:transfer Pipe Id '
+    - 'X2513:*:transfer Node Id '
+    - 'X2541:*:block Guide Id '
+    - 'X2543:*:block Heal Id '
+    - 'X2542:*:block Elevator Id '
+    - 'X2529:*:generator Id '
+    - 'X2528:*:transfer Node Remote Id '
+    - 'X2530:*:ender Quarry Id '
+    - 'X2556:*:block Imaginary Id '
+    - 'X2557:*:block X P Bottler Id '
+    - 'X2558:*:block Village Highlighter Id '
+    - 'X2559:*:block Path Id '
+    - 'X2552:*:block Cannon Id '
+    - 'X2553:*:block Vacuum Hopper Id '
+    - 'X2554:*:block Sponge Id '
+    - 'X2555:*:block Big Button '
+    - 'X2548:*:block Tank Id '
+    - 'X2549:*:block Trophy Id '
+    - 'X2550:*:block Bear Trap Id '
+    - 'X2551:*:block Sprinkler Id '
+    - 'X2545:*:block Target Id '
+    - 'X2547:*:block Flag Id '
+    - 'X2306:*: Display Case Set3 '
+    - 'X2307:*: Potion Shelf '
+    - 'X2304:*: Display Case Set1 '
+    - 'X2305:*: Display Case Set2 '
+    - 'X2310:*: Tool Rack '
+    - 'X2311:*: Label '
+    - 'X2308:*: Shelf '
+    - 'X2309:*: Table '
+    - 'X2314:*: Desk '
+    - 'X2315:*: Desk2 '
+    - 'X2312:*: Bookcase '
+    - 'X2313:*: Bookcase2 '
+    - 'X2318:*: Display Case Set2 '
+    - 'X2319:*: Display Case Set3 '
+    - 'X2316:*: Display Case Set0 '
+    - 'X2317:*: Display Case Set1 '
+    - 'X2323:*: Potion Shelf2 '
+    - 'X2322:*: Potion Shelf '
+    - 'X2321:*: Display Case Set5 '
+    - 'X2320:*: Display Case Set4 '
+    - 'X2327:*: Table2 '
+    - 'X2326:*: Table '
+    - 'X2325:*: Shelf2 '
+    - 'X2324:*: Shelf '
+    - 'X2331:*: Label2 '
+    - 'X2330:*: Label '
+    - 'X2329:*: Tool Rack2 '
+    - 'X2328:*: Tool Rack '
+    - 'X2335:*: Display Case Set1 '
+    - 'X2334:*: Display Case Set0 '
+    - 'X2333:*: Desk '
+    - 'X2332:*: Bookcase '
+    - 'X2336:*: Display Case Set2 '
+    - 'X2337:*: Display Case Set3 '
+    - 'X2338:*: Potion Shelf '
+    - 'X2339:*: Shelf '
+    - 'X2340:*: Table '
+    - 'X2341:*: Tool Rack '
+    - 'X2342:*: Label '
+    - 'X2361:*: Seat '
+    - 'X2363:*: Seat '
+    - 'X2362:*: Map Frame '
+    - 'X2364:*: Map Frame '
+    - 'X2367:*: Seat '
+    - 'X2370:*: Map Frame2 '
+    - 'X2368:*: Seat2 '
+    - 'X2369:*: Map Frame '
+    - 'X2404:*: Block Custom Plant '
+    - 'X2405:*: Block Magical Log '
+    - 'X2406:*: Block Magical Leaves '
+    - 'X2407:*: Block Arcane Furnace '
+    - 'X2400:*: Block Flux Goo '
+    - 'X2401:*: Block Flux Gas '
+    - 'X2402:*: Block Hole '
+    - 'X2403:*: Block Custom Ore '
+    - 'X2412:*: Block Jar '
+    - 'X2413:*: Block Arcane Door '
+    - 'X2414:*: Block Wooden Device '
+    - 'X2415:*: Block Lifter '
+    - 'X2408:*: Block Metal Device '
+    - 'X2409:*: Block Table '
+    - 'X2410:*: Block Chest Hungry '
+    - 'X2411:*: Block Candle '
+    - 'X2421:*: Block Taint '
+    - 'X2420:*: Block Mirror '
+    - 'X2423:*: Block Stone Device '
+    - 'X2422:*: Block Taint Fibres '
+    - 'X2417:*: Block Crystal '
+    - 'X2416:*: Block Airy '
+    - 'X2419:*: Block Cosmetic Solid '
+    - 'X2418:*: Block Cosmetic Opaque '
+    - 'X2425:*: Block Tube '
+    - 'X2424:*: Block Mana Pod '
+    - 'X2426:*: Block Warded '
+    - 'X2750:*:block Marble Slab bottom '
+    - 'X2751:*:block Marble Slab top '
+    - 'X2748:*:block Marble Pillar Slab bottom '
+    - 'X2749:*:block Marble Pillar Slab top '
+    - 'X2746:*:block Marble '
+    - 'X2747:*:block Marble Pillar '
+    - 'X2744:*:block Limestone Stairs 6 '
+    - 'X2745:*:block Limestone Stairs 7 '
+    - 'X2742:*:block Limestone Stairs 4 '
+    - 'X2743:*:block Limestone Stairs 5 '
+    - 'X2740:*:block Limestone Stairs 2 '
+    - 'X2741:*:block Limestone Stairs 3 '
+    - 'X2738:*:block Limestone Stairs 0 '
+    - 'X2739:*:block Limestone Stairs 1 '
+    - 'X2736:*:block Limestone Slab bottom '
+    - 'X2737:*:block Limestone Slab top '
+    - 'X2735:*:block Limestone '
+    - 'X2734:*:block Lapis '
+    - 'X2733:*:block Iron '
+    - 'X2732:*:block Gold '
+    - 'X2731:*:block Emerald '
+    - 'X2730:*:block Diamond '
+    - 'X2815:*:"id_tile ttinkerer:warp Gate" '
+    - 'X2802:*:wood-oak '
+    - 'X2803:*:wood-spruce '
+    - 'X2800:*:wood-birch '
+    - 'X2801:*:wood-jungle '
+    - 'X2804:*:glass '
+    - 'X2805:*:ice '
+    - 'X2795:*:stonebricksmooth '
+    - 'X2794:*:stonebrick '
+    - 'X2793:*:stone Moss '
+    - 'X2792:*:snakestone Obsidian '
+    - 'X2799:*:tyrian '
+    - 'X2798:*:thin Glass '
+    - 'X2797:*:temple Mossy '
+    - 'X2796:*:temple '
+    - 'X2787:*:sand Snakestone '
+    - 'X2786:*:road Line '
+    - 'X2785:*:obsidian '
+    - 'X2791:*:snakestone '
+    - 'X2789:*:sandstone Scribbles '
+    - 'X2788:*:sand Stone '
+    - 'X2776:*:ice Stairs 3 '
+    - 'X2777:*:ice Stairs 4 '
+    - 'X2778:*:ice Stairs 5 '
+    - 'X2779:*:ice Stairs 6 '
+    - 'X2780:*:ice Stairs 7 '
+    - 'X2781:*:lavastone '
+    - 'X2782:*:lightgem '
+    - 'X2783:*:nether Brick '
+    - 'X2768:*:fence Iron '
+    - 'X2769:*:fft '
+    - 'X2770:*:hellrock '
+    - 'X2771:*:holystone '
+    - 'X2772:*:ice Pillar '
+    - 'X2773:*:ice Stairs 0 '
+    - 'X2774:*:ice Stairs 1 '
+    - 'X2775:*:ice Stairs 2 '
+    - 'X2761:*:bookshelf '
+    - 'X2760:*:block Redstone '
+    - 'X2763:*:carpet Floor '
+    - 'X2762:*:carpet '
+    - 'X2765:*:concrete '
+    - 'X2764:*:cloud '
+    - 'X2767:*:factory '
+    - 'X2766:*:dirt '
+    - 'X2753:*:block Marble Stairs 1 '
+    - 'X2752:*:block Marble Stairs 0 '
+    - 'X2755:*:block Marble Stairs 3 '
+    - 'X2754:*:block Marble Stairs 2 '
+    - 'X2757:*:block Marble Stairs 5 '
+    - 'X2756:*:block Marble Stairs 4 '
+    - 'X2759:*:block Marble Stairs 7 '
+    - 'X2758:*:block Marble Stairs 6 '
+    - 'X2615:*:"id_tile ttinkerer:dark Quartz" '
+    - 'X2623:*:"id_tile ttinkerer:nitor Gas" '
+    - 'X2622:*:"id_tile ttinkerer:animation Tablet" '
+    - 'X2621:*:"id_tile ttinkerer:gaseous Shadow" '
+    - 'X2620:*:"id_tile ttinkerer:gaseous Light" '
+    - 'X2619:*:"id_tile ttinkerer:interface" '
+    - 'X2618:*:"id_tile ttinkerer:dark Quartz Stairs" '
+    - 'X2617:*:"id_tile ttinkerer:dark Quartz Slab Full" '
+    - 'X2616:*:"id_tile ttinkerer:dark Quartz Slab" '
+    - 'X2577:*:block Radio Id '
+    - 'X2576:*:block Ladder Id '
+    - 'X2579:*:block X P Shower Id '
+    - 'X2578:*:block Sky Id '
+    - 'X2564:*:block Block Placer Id '
+    - 'X2565:*:block Item Dropper Id '
+    - 'X2566:*:block Rope Ladder Id '
+    - 'X2567:*:block Donation Station Id '
+    - 'X2560:*:block Auto Anvil Id '
+    - 'X2561:*:block Auto Enchantment Table Id '
+    - 'X2562:*:block X P Drain Id '
+    - 'X2563:*:block Block Breaker Id '
+    - 'X2572:*:block Canvas Glass Id '
+    - 'X2573:*:block Projector Id '
+    - 'X2574:*:block Drawing Table '
+    - 'X2575:*:block Fan Id '
+    - 'X2575:*:block Golden Egg Id '
+    - 'X2568:*:block Paint Mixer '
+    - 'X2569:*:block Canvas Id '
+    - 'X2571:*:block Paint Can Id '
+    - 'X2659:*: Advanced Detector '
+    - 'X2656:*:" Imbuing  Station" '
+    - 'X2662:*: Detector '
+    - 'X2663:*: Junctionrail '
+    - 'X2660:*: Cargo Manager '
+    - 'X2661:*: Cart Assembler '
+    - 'X2666:*: Storage Blocks '
+    - 'X2667:*: Toggler '
+    - 'X2664:*: Liquid Manager '
+    - 'X2665:*: Distributor '
+    - 'X2668:*: Upgrade '
+    - 'X2643:*:" Auto  Placer" '
+    - 'X2645:*:" Block  Detector" '
+    - 'X2644:*:" Block  Breaker" '
+    - 'X2647:*:" Entity  Detector" '
+    - 'X2646:*:" Ender  Porter" '
+    - 'X2649:*:" Fluid  Display" '
+    - 'X2648:*:" Fertilized  Dirt" '
+    - 'X2651:*:" Item  Collector" '
+    - 'X2650:*:" Inventory  Interface" '
+    - 'X2653:*:" Player  Interface" '
+    - 'X2652:*:" Online  Detector" '
+    - 'X2655:*:" Block  Teleporter" '
+    - 'X2654:*:" Shock  Absorber" '
+    - 'X2624:*:"id_tile ttinkerer:magnet" '
+    - 'X2625:*:"id_tile ttinkerer:enchanter" '
+    - 'X2626:*:"id_tile ttinkerer:funnel" '
+    - 'X2627:*:"id_tile ttinkerer:dislocator" '
+    - 'X2628:*:"id_tile ttinkerer:repairer" '
+    - 'X2629:*:"id_tile ttinkerer:aspect Analyzer" '
+    - 'X2630:*:"id_tile ttinkerer:platform" '
+    - 'X2631:*:"id_tile ttinkerer: Levitational  Locomotive  Relay" '
+    - 'X2632:*:"id_tile ttinkerer: Levitational  Locomotive" '
+    - 'X3004:*:block Marble '
+    - 'X3004:*:beefpie '
+    - 'X3005:*:block Basalt Brick Stairs '
+    - 'X3005:*:pizza '
+    - 'X3006:*:block Marble Brick Stairs '
+    - 'X3006:*:chocolatecake '
+    - 'X3007:*:block Basalt Cobble Stairs '
+    - 'X3007:*:tomatocrop '
+    - 'X3000:*:" Block  Starting  I D" '
+    - 'X3000:*:block Frame '
+    - 'X3000:*:partyblock '
+    - 'X3001:*:block Detector '
+    - 'X3001:*:saltblock '
+    - 'X3002:*:block Flora '
+    - 'X3002:*:saltore '
+    - 'X3003:*:block Basalt '
+    - 'X3003:*:worktop '
+    - 'X2950:*: Multiblock '
+    - 'X3051:*:advancedmachines array Controller id '
+    - 'X3019:*:cofeecrop '
+    - 'X3018:*:candyblock '
+    - 'X3017:*:block Scaffold '
+    - 'X3017:*:strawberrycake '
+    - 'X3016:*:block Glass Wall '
+    - 'X3016:*:refrigeratorburning '
+    - 'X3023:*:pizzatomatocooked '
+    - 'X3022:*:pizzadough '
+    - 'X3020:*:carrotcake '
+    - 'X3008:*:block Marble Cobble Stairs '
+    - 'X3008:*:strawberrycrop '
+    - 'X3015:*:block Reinforced '
+    - 'X3015:*:refrigeratoridle '
+    - 'X3014:*:block Steel '
+    - 'X3014:*:seaweed '
+    - 'X3026:*:" Umbral  Rose" '
+    - 'X3026:*:candystairs '
+    - 'X3027:*:" Wrath  Cage" '
+    - 'X3027:*:candyhalfslab '
+    - 'X3024:*:pizzacheesecooked '
+    - 'X3025:*:" Thaumic  Cake" '
+    - 'X3025:*:pizzaporkcooked '
+    - 'X3028:*:candydoubleslab '
+    - 'X2852:*: I D  Block Industrial Craft '
+    - 'X2853:*: I D  Block Steam '
+    - 'X2855:*: I D  Block Thermal Expansion '
+    - 'X2850:*: I D  Block Common '
+    - 'X2851:*: I D  Block Buildcraft '
+    - 'X2817:*:"id_tile ttinkerer:golem Connector" '
+    - 'X2830:*:crate '
+    - 'X2831:*:chest '
+    - 'X2839:*:flint Block '
+    - 'X2838:*:crafting Station '
+    - 'X2837:*:reinforced Locker '
+    - 'X2836:*:cardboard Box '
+    - 'X2835:*:ender Backpack '
+    - 'X2834:*:backpack '
+    - 'X2833:*:armor Stand '
+    - 'X2832:*:locker '
+    - 'X2883:*:book Button '
+    - 'X2880:*:thaumcraft Backpack '
+    - 'X2881:*:thaumium Chest '
+    - 'X2886:*:painting Door '
+    - 'X2887:*:redstone Lever1 '
+    - 'X2884:*:brick Button '
+    - 'X2885:*:nether Brick Button '
+    - 'X2890:*:redstone Torch Lever '
+    - 'X2891:*:redstone Torch Lever Off '
+    - 'X2888:*:redstone Torch Button '
+    - 'X2889:*:redstone Torch Button Off '
+    - 'X2894:*:machine I D '
+    - 'X2892:*:torch Button '
+    - 'X2893:*:torch Lever '
+    - 'X3148:*: I D  Vine Scaffold '
+    - 'X3149:*: I D  Red Net  Panel '
+    - 'X3150:*: I D  Det Cord '
+    - 'X3144:*: I D  Red Net  Cable '
+    - 'X3145:*: I D  Red Net  Logic '
+    - 'X3146:*: I D  Machine Block2 '
+    - 'X3147:*: I D  Fake Laser '
+    - 'X3140:*: I D  Chocolate Milk  Still '
+    - 'X3141:*: I D  Mob Essence  Still '
+    - 'X3142:*: I D  Mushroom Soup  Still '
+    - 'X3143:*: I D  Bio Fuel  Still '
+    - 'X3136:*: I D  Meat  Still '
+    - 'X3137:*: I D  Sludge  Still '
+    - 'X3138:*: I D  Pink Slime  Still '
+    - 'X3139:*: I D  Sewage  Still '
+    - 'X3131:*: I D  Machine Block1 '
+    - 'X3130:*: I D  Stained Glass Pane '
+    - 'X3129:*: I D  Stained Glass '
+    - 'X3128:*: I D  Passenger Rail Pickup Block '
+    - 'X3135:*: I D  Milk  Still '
+    - 'X3134:*: I D  Stone '
+    - 'X3133:*: I D  Bricks '
+    - 'X3132:*: I D  Road '
+    - 'X3123:*: I D  Rubber Leaves '
+    - 'X3122:*: I D  Rubber Wood '
+    - 'X3121:*: I D  Conveyor Block '
+    - 'X3120:*: I D  Machine Block '
+    - 'X3127:*: I D  Passenger Rail Dropoff Block '
+    - 'X3126:*: I D  Cargo Rail Pickup Block '
+    - 'X3125:*: I D  Cargo Rail Dropoff Block '
+    - 'X3124:*: I D  Rubber Sapling '
+    - 'X3108:*:advancedmachines array Cable id '
+    - 'X3459:*:block Cable '
+    - 'X3458:*:block Barrel '
+    - 'X3457:*:block Alloy Glass '
+    - 'X3456:*:block Alloy '
+    - 'X3463:*:block Dynamite Remote '
+    - 'X3462:*:block Dynamite '
+    - 'X3461:*:block Door Alloy '
+    - 'X3460:*:block Crop '
+    - 'X3467:*:block Foam '
+    - 'X3466:*:block Fluidcoolant '
+    - 'X3465:*:block Fence Iron '
+    - 'X3464:*:block Electric '
+    - 'X3471:*:block Iron Scaffold '
+    - 'X3470:*:block I T N T '
+    - 'X3469:*:block Harz '
+    - 'X3468:*:block Generator '
+    - 'X3474:*:block Machine '
+    - 'X3475:*:block Machine2 '
+    - 'X3472:*:block Luminator '
+    - 'X3473:*:block Luminator Dark '
+    - 'X3478:*:block Mining Tip '
+    - 'X3479:*:block Nuke '
+    - 'X3476:*:block Metal '
+    - 'X3477:*:block Mining Pipe '
+    - 'X3483:*:block Ore Uran '
+    - 'X3486:*:block Reinforced Foam '
+    - 'X3487:*:block Rub Leaves '
+    - 'X3484:*:block Personal '
+    - 'X3485:*:block Reactor Chamber '
+    - 'X3489:*:block Rub Wood '
+    - 'X3488:*:block Rub Sapling '
+    - 'X3491:*:block Scaffold '
+    - 'X3490:*:block Rubber '
+    - 'X3493:*:blockfluid Cf '
+    - 'X3492:*:block Wall '
+    - 'X3494:*:blockfluid Uu Matter '
+    - 'X3501:*: Sapling '
+    - 'X3503:*: Cicada '
+    - 'X3502:*: Nagastone '
+    - 'X3504:*: Fire Jet '
+    - 'X3510:*: Better Barrel '
+    - 'X3511:*: Mini Barrel '
+    - 'X3511:*:block Nuclear Control Main '
+    - 'X3707:*:slab '
+    - 'X3706:*:panel '
+    - 'X3705:*:machine '
+    - 'X3704:*:log '
+    - 'X3710:*:door '
+    - 'X3709:*:gate '
+    - 'X3708:*:double Slab '
+    - 'X3696:*:" Standard  Crop:  Sugar  Cane  I D" '
+    - 'X3703:*:tile '
+    - 'X3702:*:stairs '
+    - 'X3701:*:fence '
+    - 'X3700:*:planks '
+    - 'X3690:*:" Standard  Crop:  Raspberry  I D" '
+    - 'X3691:*:" Standard  Crop:  Strawberry  I D" '
+    - 'X3688:*:" Standard  Crop:  Cucumber  I D" '
+    - 'X3689:*:" Standard  Crop:  Grape  I D" '
+    - 'X3694:*:" Standard  Crop:  Blueberry  I D" '
+    - 'X3695:*:" Magical  Soul  Crop:  Wither  I D" '
+    - 'X3692:*:" Standard  Crop:  Sweetcorn  I D" '
+    - 'X3693:*:" Standard  Crop:  Tomato  I D" '
+    - 'X3682:*:" Magical  Crop  Sapphire" '
+    - 'X3683:*:" Magical  Crop  Platinum" '
+    - 'X3680:*:" Magical  Crop  Peridot" '
+    - 'X3681:*:" Magical  Crop  Ruby" '
+    - 'X3686:*:" Standard  Crop:  Blackberry  I D" '
+    - 'X3687:*:" Standard  Crop:  Chili  I D" '
+    - 'X3684:*:" Essence  Blocks:  Infused  Stained  Clay" '
+    - 'X3685:*:" Magical  Crop  Essence  I D" '
+    - 'X3673:*:" Magical  Crop  Ferrous" '
+    - 'X3672:*:" Magical  Crop  Cobalt" '
+    - 'X3675:*:" Element  Crop  Air  I D" '
+    - 'X3674:*:" Magical  Crop  Force" '
+    - 'X3677:*:" Element  Crop  Fire  I D" '
+    - 'X3676:*:" Element  Crop  Earth  I D" '
+    - 'X3679:*:" Magical  Crop  Aluminum" '
+    - 'X3678:*:" Element  Crop  Water  I D" '
+    - 'X3665:*:" Magical  Crop  Certus  Quartz  I D" '
+    - 'X3667:*:" Magical  Crop  Lead  I D" '
+    - 'X3666:*:" Magical  Crop  Copper  I D" '
+    - 'X3669:*:" Magical  Crop  Tin  I D" '
+    - 'X3668:*:" Magical  Crop  Silver  I D" '
+    - 'X3671:*:" Magical  Crop  Ardite" '
+    - 'X3656:*:" Magical  Soul  Crop:  Skeleton  I D" '
+    - 'X3657:*:" Magical  Soul  Crop:  Slime  I D" '
+    - 'X3658:*:" Magical  Soul  Crop:  Spider  I D" '
+    - 'X3659:*:" Tinted  Essence  Blocks:  Carved  Stone  Brick" '
+    - 'X3660:*:" Tinted  Essence  Blocks:  Glowstone" '
+    - 'X3661:*:" Tinted  Essence  Blocks:  Large  Brick" '
+    - 'X3662:*:" Tinted  Essence  Blocks:  Small  Brick" '
+    - 'X3663:*:" Tinted  Essence  Blocks:  Wood  Planks" '
+    - 'X3648:*:" Magical  Crop  Lapis  Lazuli  I D" '
+    - 'X3649:*:" Magical  Crop  Nether  I D" '
+    - 'X3650:*:" Magical  Crop  Obsidian  I D" '
+    - 'X3651:*:" Magical  Crop  Redstone  I D" '
+    - 'X3652:*:" Magical  Soul  Crop:  Cow  I D" '
+    - 'X3653:*:" Magical  Soul  Crop:  Creeper  I D" '
+    - 'X3654:*:" Magical  Soul  Crop:  Ghast  I D" '
+    - 'X3655:*:" Magical  Soul  Crop:  Magma  Cube  I D" '
+    - 'X3647:*:" Magical  Crop  Iron  I D" '
+    - 'X3646:*:" Magical  Crop  Gold  I D" '
+    - 'X3645:*:" Magical  Crop  Glowstone  I D" '
+    - 'X3644:*:" Magical  Crop  Experience  I D" '
+    - 'X3643:*:" Magical  Crop  Ender  I D" '
+    - 'X3642:*:" Magical  Crop  Emerald  I D" '
+    - 'X3641:*:" Magical  Crop  Dye  I D" '
+    - 'X3640:*:" Magical  Crop  Diamond  I D" '
+    - 'X3639:*:" Magical  Crop  Coal  I D" '
+    - 'X3638:*:" Magical  Crop  Blaze  I D" '
+    - 'X3637:*:" Essence  Ore  Nether  Block  I D" '
+    - 'X3636:*:" Essence  Ore  Block  I D" '
+    - 'X3635:*:" Essence  Blocks:  Stone" '
+    - 'X3634:*:" Essence  Blocks:  Light  Infused  Blocks" '
+    - 'X3633:*:" Essence  Blocks:  Large  Brick" '
+    - 'X3632:*:" Essence  Blocks:  Infused  Wool" '
+    - 'X3630:*:" Essence  Blocks:  Glass" '
+    - 'X3631:*:" Essence  Blocks:  Infused  Wood" '
+    - 'X3628:*:" Magical  Crop  Thaumcraft  Shards" '
+    - 'X3629:*:" Magical  Crop  Uranium" '
+    - 'X3626:*:" Magical  Arcane  Fence" '
+    - 'X3627:*:" Magical  Crop  Oil" '
+    - 'X3625:*:" Magical  Crop  Death  Bloom  I D" '
+    - 'X4080:*: Uncrafting Table '
+    - 'X4082:*:decorative_2 Id '
+    - 'X4094:*: Trent I D '
+    - 'X4094:*: Speed Rune '
+    - 'X4095:*: Scarecrow I D '
+    - 'X4095:*: Blood Rune '
+    - 'X4035:*: Salt '
+    - 'X4034:*: Cinnamon '
+    - 'X4033:*: Brewer '
+    - 'X4032:*: Icebox '
+    - 'X4039:*:manipulator '
+    - 'X4038:*: Oven '
+    - 'X4037:*: Counter '
+    - 'X4036:*: Processor '
+    - 'X4043:*:fortron Capacitor '
+    - 'X4042:*:projector '
+    - 'X4041:*:biometric Identifier '
+    - 'X4040:*:interdiction Matrix '
+    - 'X4045:*:force Field '
+    - 'X4044:*:coercion Deriver '
+    - 'X4028:*: Strawberry '
+    - 'X4029:*: Peanut '
+    - 'X4030:*: Vanilla '
+    - 'X4031:*: Frier '
+    - 'X3973:*:pamcinnamon I D '
+    PlayersIgnoringAllClaims: []
+  Rules:
+    BreakOverrides:
+      TNT:
+        Materials:
+        - TNT:*:TNT
+        Name: TNT
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          SiegeAttacker: Allow
+          SiegeDefender: Deny
+          ClaimControl: RequireBuild
+    PlaceOverrides:
+      TNT:
+        Materials:
+        - TNT:*:TNT
+        Name: TNT
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          SiegeAttacker: Allow
+          SiegeDefender: Deny
+          ClaimControl: RequireBuild
+    BlockPlacement:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        SiegeAttacker: Deny
+        SiegeDefender: Deny
+        ClaimControl: RequireBuild
+      PVP: Deny
+    BlockBreaking:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        SiegeAttacker: Allow
+        SiegeDefender: Deny
+        ClaimControl: RequireBuild
+      PVP: Deny
+    SilverfishBreak:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    FireDestroys:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    FireSpreadOrigin:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    FireSpreadTarget:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    CreeperExplosions:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    WitherExplosions:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    TNTExplosions:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    EnderDragonDamage:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    EnderPortalFill:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    FlowerPots:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    ItemFrameItems:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    SpawnEggs:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    BlockDamageWitherExplosions:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    OtherExplosions:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    WitherEating:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: Disabled
+    BlockDamageCreeperExplosion:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        SiegeNonPlayer: Allow
+        ClaimControl: RequireNone
+    BlockDamageTNTExplosions:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        SiegeNonPlayer: Deny
+        ClaimControl: RequireBuild
+    BlockDamageOtherExplosions:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        SiegeNonPlayer: Allow
+        ClaimControl: RequireNone
+    WaterBuckets:
+      Place:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+      Fill:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+    LavaBuckets:
+      Place:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Allow
+          RequiredPermissions:
+          - griefprevention.placement.lava
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+      Fill:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+    BuildIronGolem:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    BuildSnowGolem:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    BuildWither:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    TrashBlockPlacementRules:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    VillagerTrading:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    VehicleDamage:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    EnvironmentalVehicleDamage:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    VehicleBoarding:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    VehiclePlacement:
+      Boat:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+      Minecart:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+    ZombieDoorBreaking:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    SheepShearing:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    SheepDyeing:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    BonemealGrass:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    PlayerCropTrample:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    EndermanPickup:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    EndermanPlacement:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireNone
+    ArrowsHitWoodButtons:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    BlockTweaking:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    Containers:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        SiegeAttacker: Deny
+        SiegeDefender: Deny
+        ClaimControl: RequireContainer
+      PVP: Deny
+    CreatureDamage:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    WoodenDoors:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    TrapDoors:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    FenceGates:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    EnderPearlOrigin:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    EnderPearlTarget:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    StonePressurePlates:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    WoodenPressurePlates:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    ArrowWoodenPressurePlate:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    StoneButton:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    WoodenButton:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    Levers:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    Beds:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    FireExtinguishing:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    FireSetting:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        RequiredPermissions:
+        - GriefPrevention.Lava
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireBuild
+    Breeding:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    Taming:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    LeadUsage:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    EquineInventory:
+      Wilderness:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Deny
+        BelowSeaLevel: Deny
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    NameTags:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireContainer
+    Feeding:
+      Wilderness:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+      Claims:
+        AboveSeaLevel: Allow
+        BelowSeaLevel: Allow
+        SeaLevel: '-1'
+        ClaimControl: RequireAccess
+    Dispensers:
+      Lava:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Water:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Arrows:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      FireCharges:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      FlintandSteel:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireBuild
+      PositivePotions:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      NegativePotions:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireAccess
+      SpawnEggs:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Fireworks:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Snowballs:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Eggs:
+        Wilderness:
+          AboveSeaLevel: Deny
+          BelowSeaLevel: Deny
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireNone
+      Misc:
+        Wilderness:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+        Claims:
+          AboveSeaLevel: Allow
+          BelowSeaLevel: Allow
+          SeaLevel: '-1'
+          ClaimControl: RequireAccess
