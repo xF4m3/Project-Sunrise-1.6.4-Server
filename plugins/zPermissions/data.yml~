@@ -1,0 +1,98 @@
+# DO NOT EDIT -- file is written to periodically!
+players: []
+groups:
+- name: Admin
+  permissions:
+    '''*''': true
+    bukkit.command.op: true
+    bungeesuite.*: true
+    essentials.*: true
+    essentials.joinfullserver: true
+    griefprevention.admin.*: true
+    worldborder.*: true
+    zpermissions.*: true
+  metadata: {}
+  priority: 0
+  members:
+  - flatronez
+  - x_fame
+  tempmembers: []
+- name: Supporter
+  permissions:
+    bungeesuite.chat.user: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Titan
+  permissions:
+    bungeesuite.chat.vip: true
+  metadata: {}
+  priority: 0
+  members: []
+  tempmembers: []
+- name: Moderator
+  permissions:
+    bungeesuite.chat.mod: true
+    essentials.joinfullserver: true
+  metadata: {}
+  priority: 0
+  parents:
+  - Admin
+  members: []
+  tempmembers: []
+- name: Gold
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  parents:
+  - Titan
+  members: []
+  tempmembers: []
+- name: Silver
+  permissions:
+    bungeesuite.user: true
+  metadata: {}
+  priority: 0
+  parents:
+  - Gold
+  members: []
+  tempmembers: []
+- name: Bronze
+  permissions:
+    bungeesuite.user: true
+    essentials.afk: true
+    essentials.afk.auto: true
+    essentials.build: true
+    essentials.delhome: true
+    essentials.gc: true
+    essentials.help: true
+    essentials.help.griefprevention: true
+    essentials.helpop: true
+    essentials.home: true
+    essentials.home.bed: true
+    essentials.ignore: true
+    essentials.info: true
+    essentials.list: true
+    essentials.mail: true
+    essentials.mail.send: true
+    essentials.motd: true
+    essentials.msg: true
+    essentials.ping: true
+    essentials.rules: true
+    essentials.seen: true
+    essentials.seen.banreason: true
+    essentials.spawn: true
+    essentials.teleport.timer.move: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+  metadata: {}
+  priority: 0
+  parents:
+  - Silver
+  members:
+  - x_fame
+  tempmembers: []
