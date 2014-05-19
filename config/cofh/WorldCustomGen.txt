@@ -33,7 +33,7 @@ UNIFORM	oreTinte2	2001	1	4	4	86	103	true
 UNIFORM	oreTinte3	2001	1	6	4	124	140	true
 UNIFORM oreTinic2   4001    1   6   4   38  60  true
 UNIFORM	oreApatitef2	1398	0	6	10	130	230	true
-UNIFORM	oreDiamond	56	0	2	2	18	24	true
+UNIFORM	oreDiamond	56	0	2	2	5	16	true
 UNIFORM	oreCoalVan1	16	0	14	8	48	92	true
 UNIFORM	oreCoalVan2	16	0	10	8	93	137	true
 UNIFORM	oreCoalVan3	16	0	10	8	138	182	true
